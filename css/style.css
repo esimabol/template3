@@ -72,6 +72,76 @@ nav a {
 	text-decoration: none;
 }
 
+
+/*Contenido principal*/
+main .container {
+	background-color: #fff;
+	margin-top: 10px;
+	border: 1px solid #b1b1b1;	
+	font-family: Arial, sans-serif;
+	color: #2a2b27;
+	font-size: .9rem;
+}
+
+main .container section{
+	margin-top: 20px;
+}
+
+main .container h2, main .container p {
+	margin-bottom: 15px;
+	padding: 0 15px;
+}
+
+main .container a {
+	margin-left: 15px;
+}
+
+
+.main-col{
+	width: 100%;
+	border-bottom: .3px solid #bdbdc5;
+}
+
+.col{
+	width: 49%;
+	float: left;
+	margin-top: 30px;
+}
+
+.border {
+	border-left: 1px dotted #cacfbb;
+}
+
+.col p {
+	margin-bottom: 25px;
+}
+.clearfix {
+	clear: both;
+}
+
+.btn{
+	color: #454546;
+    background: #FAEFE3;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 7px 15px 7px 15px;
+    font-weight: bold;
+    display: inline-block;
+    border: #A4AD8D solid 1px;
+}
+
+/*Footer*/
+footer .container{
+	background-color: #e4e1df;
+	margin-top: 18px;
+    padding: 15px 0 12px 0;
+    height: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;    
+    border: #7171AE dotted 1px;
+}
 @media(max-width: 750px) {	
 	header .container {
 		height: 110px;
@@ -84,6 +154,15 @@ nav a {
 	}
 	.header-title h1 {
 		font-size: 2rem;		
+	}
+	.col {
+		width: 100%;
+	}
+	.col p {
+	margin-bottom: 30px;
+	}
+	main .container p{
+		font-size: 1rem;
 	}
 }
 
