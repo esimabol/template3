@@ -144,7 +144,7 @@ footer .container{
 }
 @media(max-width: 750px) {	
 	header .container {
-		height: 110px;
+		height: 86px;
 		background-size: contain;
 		padding: 23px 0 0 0;
 		border: none;
@@ -155,6 +155,10 @@ footer .container{
 	.header-title h1 {
 		font-size: 2rem;		
 	}
+	nav .container{
+		margin-top: 0;
+	}
+
 	.col {
 		width: 100%;
 	}
