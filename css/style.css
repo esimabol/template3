@@ -12,7 +12,7 @@ header, nav, main, section, article, aside, hgroup, figure, figcaption, footer {
 }
 
 body{
-	background-color: white;
+	background-color: #d8c6b2;
 }
 
 img {
@@ -51,8 +51,30 @@ header .container {
 	font-size: 2.5rem;
 }
 
-@media(max-width: 750px) {
+/*Navegacion*/
+nav .container{
+	text-align: center;
+	margin-top: 10px;
+	background-color: #ecf0ec;
+	padding: 10px 0;
+	border: 1px solid #bbbfb4;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	font-size: 1.06rem;
+	width: 24%;
+}
+
+nav a {
+	color: #03314b;
+	text-decoration: none;
+}
+
+@media(max-width: 750px) {	
 	header .container {
+		height: 110px;
 		background-size: contain;
 		padding: 23px 0 0 0;
 		border: none;
