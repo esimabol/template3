@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+header, nav, main, section, article, aside, hgroup, figure, figcaption, footer {
+	display: block;
+}
+
+body{
+	background-color: white;
+}
+
+img {
+	max-width: 100%;
+}
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 23px 0 40px 0;
+	border: 1px solid black;
+}
+
+header {
+	font-family: 'Raleway', sans-serif;	
+	color: #2f1b09;
+
+}
+
+header .container {
+	background-image: url('../img/header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;	
+	height: 160px;
+	border: 1px solid #6e6065;
+}
+
+.header-title{
+	line-height: 40px;
+	position: relative;
+	top: 50px;
+	left: 65px;
+}
+
+.header-title h1 {
+	font-size: 2.5rem;
+}
+
+@media(max-width: 750px) {
+	header .container {
+		background-size: contain;
+		padding: 23px 0 0 0;
+		border: none;
+	}
+	.header-title{
+		top: 35px;
+	}
+	.header-title h1 {
+		font-size: 2rem;		
+	}
+}
+
+@media(max-width: 500px) {
+	.header-title h1 {
+		font-size: 1.6rem;		
+	}
+	.header-title{
+		top: 10px;
+	}
+}
